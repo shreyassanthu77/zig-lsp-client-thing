@@ -1,0 +1,15 @@
+.{
+    .name = "zig-lsp-client-thing",
+    .version = "0.0.0",
+    .dependencies = .{
+        .@"lsp-codegen" = .{
+            .url = "git+https://github.com/zigtools/zig-lsp-codegen.git#6b34887189def7c859307f4a9fc436bc5f2f04c9",
+            .hash = "122054fe123b819c1cca154f0f89dd799832a639d432287a2371499bcaf7b9dcb7a0",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
